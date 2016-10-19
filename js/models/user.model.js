@@ -1,5 +1,9 @@
 module.exports = Backbone.Model.extend({
 
+  initialize() {
+    // listen for changes
+  },
+
   url: '',
   defaults: {
     "login": "octocat",
@@ -34,5 +38,5 @@ module.exports = Backbone.Model.extend({
     "updated_at": "2008-01-14T04:33:35Z"
   },
 
-  
+
 })
