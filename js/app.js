@@ -13,10 +13,3 @@ window.addEventListener('load', () => {
 
   Backbone.history.start()
 })
-
-/**
-* Access token:
-*
-* 7fd7ee8c9d836f9754f5c09cdd526f444ed2d317
-*
-*/
